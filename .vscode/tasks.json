@@ -1,0 +1,49 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build UI and Resource",
+            "command": "python",
+            "args": [
+                "tools/compile_all.py"
+            ],
+            "linux":{
+                "command": "venv/bin/python"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Build Release",
+            "command": "python",
+            "args": [
+                "tools/package.py"
+            ],
+            "linux":{
+                "command": "venv/bin/python"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Do Translation",
+            "command": "python",
+            "args": [
+                "tools/translate.py"
+            ],
+            "linux":{
+                "command": "venv/bin/python"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Design Forms",
+            "command": "python",
+            "args": [
+                "tools/design.py"
+            ],
+            "linux":{
+                "command": "venv/bin/python"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
