@@ -56,7 +56,7 @@ def translate():
             UCRT = True
     if UCRT:
         subprocess.run(
-            "C:/msys64/ucrt64/bin/linguist.exe translation_zh_CN.ts".split(), check=True
+            "C:/msys64/ucrt64/bin/linguist-qt6.exe translation_zh_CN.ts".split(), check=True
         )
     else:
         with cd(str(CURRENT.parent)):
