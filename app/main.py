@@ -13,7 +13,7 @@ def main_gui():
         )
     app = QtWidgets.QApplication(sys.argv)
 
-    _window = mainwindow.MainWindow(app)
+    _window = mainwindow.MainWindow()
     _window.show()
     sys.exit(app.exec())
 
