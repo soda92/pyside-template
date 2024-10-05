@@ -11,3 +11,4 @@ wheels/
 
 # compiled resource
 /main_rc.py
+/*.qm
