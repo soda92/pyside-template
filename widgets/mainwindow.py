@@ -8,3 +8,11 @@ class MainWindow(QtWidgets.QWidget):
 
         self.ui = Ui_Form()
         self.ui.setupUi(self)
+
+        from widgets.debug_window import DebugWindowReloader
+        self.debug_window = DebugWindowReloader(self)
+        self.debug_window.show()
+
+    def test(self):
+        print("some test")
+
