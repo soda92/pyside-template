@@ -1,0 +1,10 @@
+[project]
+name = "pyside-template"
+version = "0.1.0"
+description = "Starter template for developing pyside applications"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyinstaller>=6.10.0",
+    "pyside6>=6.6.3.1",
+]
